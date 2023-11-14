@@ -1,1 +1,2 @@
-package.json is configuration for npm  . Root is way to tell react where to do dom manipulation .here react elements will be converted to html which brower understand when render is called.
+package.json is configuration for npm  . Root is way to tell react where to do dom manipulation .here react elements will be converted to html which brower understand when render is called.git.
+Bundles like web pack,parcel it packages or bundles  the app or all app files properly so that it can be shipped to production.
