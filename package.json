@@ -1,0 +1,27 @@
+{
+  "name": "namastereactfromprem",
+  "version": "1.0.0",
+  "description": "my first react project to learn",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prembe86/NAMASTEREACTFROMPREM.git"
+  },
+  "keywords": [],
+  "author": "premkumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prembe86/NAMASTEREACTFROMPREM/issues"
+  },
+  "homepage": "https://github.com/prembe86/NAMASTEREACTFROMPREM#readme",
+  "devDependencies": {
+    "parcel": "^2.10.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

@@ -1,2 +1,39 @@
 package.json is configuration for npm  . Root is way to tell react where to do dom manipulation .here react elements will be converted to html which brower understand when render is called.git.
 Bundles like web pack,parcel it packages or bundles  the app or all app files properly so that it can be shipped to production.
+dev dependencies is required only in development phase
+Major.Minor.patch package.json npm package version
+~1.2.3 --> 1.2.3 to 1.2.9  --> upto patch third digit
+^2.3.4 --> 2.3.4 to 2.9.9 --> upto minor second digit
+crossorigin --> preflight option request where server responds for that with addiontal header like access control allow origin if it is * all allow , then client will send origingal post request.
+diff between pcakge.json and lock .json is :: package.json file has approximate version with tilde and carat symbol where package.lock.json file
+locks the exacts version installed in developer machine . sometimes we think it works in developer machine not in produciton , then diff version
+might have been installed in production ,so that issue came.so we should push lock file to ensure the same version installed in developer machine is also 
+installed in production.
+
+in package.lock.json file in every exact package installed like parcel we have property called integrity which has hash to verify that whatever is there 
+in my dev machine is same is deployed in production.It keeps track of all exact version of dependencies.
+
+Transitive dependencies --> our app has parcel dependencies . but parcel itself a library or project that has its own dependencies . And those 
+dependencies has their own dependencies.
+
+if we have package and lock we can recreate all my node modules 
+npm install install a package
+npx parcel index.html npx means it will execute a pacakge.
+parcel provides
+development build
+host the development build into local server
+hot module replacement done by file watching algorithm which browser refresh for every save we do 
+for every save build time will be less so parcel is caching the build to reduce the build time.
+Image optimization
+minification
+bundles
+compress 
+Consistent hashing
+code splitting
+differential bundling to support older browsers and mobile browsers.
+Diagnostic
+Error handling and error suggestions and good error view design
+Tree shaking removes unused code and unused function for unused
+lazy dev build 
+it will make to load with https npx parcel index.html --https
+different dev and prod build 
