@@ -37,3 +37,13 @@ Tree shaking removes unused code and unused function for unused
 lazy dev build 
 it will make to load with https npx parcel index.html --https
 different dev and prod build 
+npm start is equal to npm run start but npm build is not equal to npm run build , npm build will not works
+jsx code is traspiled by babel into react code which is react elment which is again a an javascript object .this object will be converted to html dom elementswhen 
+it is rendered using root.render which browser will understand
+jsx code is transpiled into javascript object which js engine can understand .
+
+jsx has className which is always camelCase attribute
+functional and class based component where functional component is a javascript function which return a piect of jsx cod
+e.if a function return a reaact element then it is functional componen t.
+component composition is component within component.
+functional component will start with capital letter and it can be called as function with /> andalso <></>
