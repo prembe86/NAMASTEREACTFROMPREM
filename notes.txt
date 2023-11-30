@@ -47,3 +47,12 @@ functional and class based component where functional component is a javascript 
 e.if a function return a reaact element then it is functional componen t.
 component composition is component within component.
 functional component will start with capital letter and it can be called as function with /> andalso <></>
+passing properties to a component is just like passing arguments to a function
+when we pass multiple properties to a component  , react will wrap all properties into a single object and pass it to a variable props which is
+argument to functional component.
+cONFIG DRIVEN UI --> UI is driven based on back end data based on location the ui data will change , ui will appear or disappera or different 
+color for different cities.
+give a key prop in map array
+react says dont take index as keys  it is bad practice
+react makes developer experience easy with less code and performant and coding experience faster .optimize web pages so things happen very faster
+if we give key it will not rerender all the item in list but only new list item in stack data structures.
